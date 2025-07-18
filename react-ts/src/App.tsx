@@ -24,12 +24,15 @@
 // }
 // interface guy extends Person{
 //   profession:string
-// }
-
+// 
+import Inputfield from "./components/inputField"
 const App: React.FC = () => {
 
   return (
-    <div>Hello world</div>
+    <div>
+      <h1 className="Task">Taskify</h1>
+      <Inputfield />
+    </div>
   )
 }
 
